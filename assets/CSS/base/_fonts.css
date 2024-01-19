@@ -14,6 +14,7 @@
 
 .fas,
 .fa-solid {
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900; 
   font-style: normal;
 }
@@ -24,17 +25,19 @@ content: "\f015";
 }
 
 /*Pesquisa*/
-.fa-magnifying-glass-location::before {
-  content: "\f689"; }
+.fa-magnifying-glass::before {
+  content: "\f002"; 
+}
 
 /*favorito*/
-.fa-star-and-crescent::before {
-  content: "\f699"; }
+.fa-star::before {
+  content: "\f005"; 
+}
 
 /*Filmes*/
-  .fa-film::before {
-    content: "\f008"; }
-
+.fa-film::before {
+  content: "\f008"; 
+}
 /*Series*/
 .fa-tv-alt::before {
   content: "\f26c"; }
