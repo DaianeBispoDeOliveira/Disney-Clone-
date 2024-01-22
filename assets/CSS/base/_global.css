@@ -22,3 +22,7 @@ body {
     position: relative;
     z-index: 2;
 }
+
+.logo {
+    margin-top:10px;
+}
