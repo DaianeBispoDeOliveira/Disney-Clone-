@@ -5,3 +5,5 @@
 @import url(../CSS/layout/__header.css);
 @import url(../CSS/layout/__nav-menu.css);
 @import url(.//base/animations.css);
+@import url(./layout/_user-menu.css);
+@import url(./components/_user-profile.css);
