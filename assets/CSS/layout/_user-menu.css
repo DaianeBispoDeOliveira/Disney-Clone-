@@ -66,7 +66,39 @@
     display: none;
 }
 
-.user-menu:hover .show-hover{
+.user-menu:hover .show-hover,
+.user-menu:hover .user-menu-profiles__title{
     display: block;
    
+}
+
+@media screen and (max-width: 1024px) {
+    .user-menu .user-menu-profiles_title {
+        display: none;
+    }
+
+    .user-menu .user-menu-profiles_avatar
+     {
+        height: 80px; 
+        width: 80px;  
+
+    }
+
+    .user-menu__current-profile {
+        padding-top: 1.9rem;
+    }
+
+    .user-menu_background,
+    .user-menu__profiles {
+        margin-left: 0; 
+
+    }
+
+    .user-menu {
+        width: 200px; 
+    }
+
+    .user-menu__options .user-menu_link {
+        padding: 10px; 
+    }
 }

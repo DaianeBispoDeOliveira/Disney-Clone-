@@ -1,6 +1,9 @@
 
 .nav-menu {
     margin-left: 3.7rem;
+    margin-left: 3.7rem;
+    position: relative;
+    z-index: 2; 
 }
 
 .nav-menu__item {
